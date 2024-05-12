@@ -31,3 +31,33 @@
 // array => Object
 // object => object
 // function => function
+
+
+
+
+
+
+// theres two types of memories 1) stack and 2)heap
+
+//primitive datatypes are stored in stack memory
+//Non-primitive datatypes are stored in heap memory
+// from stack memory we get a copy of a memory and from heap memory we get the reference that is real data where we make changes
+
+let myYoutubeName = "abc"
+let anotherName = myYoutubeName 
+anotherName = "xyz"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@sbi"
+}
+let usertwo = userOne;
+
+usertwo.email = "sayan@mail.com"
+
+console.log(userOne.email);
+
+console.log(usertwo.email);

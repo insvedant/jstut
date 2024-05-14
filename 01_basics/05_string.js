@@ -20,7 +20,7 @@ const gameName = new String("sayan-sd-dhar")
 // console.log(anotherString);
 
 const newStringOne = "      sasyan     "
-// console.log(newStringOne.trim());
+console.log(newStringOne.trim());
 
 const url = "sayan.com/sayan%20dhar"
 console.log(url.replace("%20", "-"));

@@ -69,7 +69,12 @@ function handleObject(anyObject){
 
 //we can also pass object directly in the function
 
-handleObject({
-    username : "sayan",
-    enumber : 488
-})
+// handleObject({
+//     username : "sayan",
+//     enumber : 488
+// })
+const newArray = [200,400,100, 600]
+function returnedASecondValue (getArray){
+    return getArray[1]
+}
+console.log(returnedASecondValue(newArray));

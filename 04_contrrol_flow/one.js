@@ -33,3 +33,10 @@
 // }else{
 //     console.log("more than 900");
 // }
+
+const userLoggedIn = true
+const debitCard = true
+
+if(userLoggedIn && debitCard){
+    console.log("allow login");
+}

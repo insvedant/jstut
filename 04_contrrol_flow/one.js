@@ -36,7 +36,12 @@
 
 const userLoggedIn = true
 const debitCard = true
+const userLoggedinFromGoole = true
+const userLoggedinFromEmail = true
 
 if(userLoggedIn && debitCard){
     console.log("allow login");
+}
+if(userLoggedinFromGoole || userLoggedinFromEmail){
+    console.log("allow buy");
 }

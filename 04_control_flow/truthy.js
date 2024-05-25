@@ -62,10 +62,17 @@
 
 // condition ? true : false this is the syntax of Terniary operator
 
-const iceTea = 80
+// const iceTea = 100
+//  iceTea <=80 ? console.log("less than 80") : console.log("more than 80");
 
-iceTea<= 80 ? console.log("less than 80") : console.log("more than 80");
+// const sayan = 100
 
+// sayan => 50 ? console.log("more than 50") : console.log("less than 50");
+
+
+// const areasP = 120
+
+// areasP <= 140 ? console.log("is equal to 120") : console.log(" is not equal to 120");
 
 
 

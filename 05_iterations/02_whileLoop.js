@@ -66,3 +66,4 @@
 // } while (rollNumberxx<=6);
 // as the number 11 was already more than 6 so the snippet printed the 11 first and then when it didnt meet conditon it stopped the loop
 
+    

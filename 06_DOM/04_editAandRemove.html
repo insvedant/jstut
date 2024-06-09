@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js with sayan | DOM</title>
+
+
+
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+<ul class="language">
+    <li>javascript</li>
+</ul>
+
+</body>
+<!-- 
+<script>
+    function addLang(langName){
+       const li = document.createElement("li")
+       li.innerHTML = `${langName}`
+       document.querySelector(".language").appendChild(li)
+    }
+
+    addLang("python")
+    addLang('java')
+</script> -->
+
+<!-- 
+process first create a function give  it a name and then pass what we have to add there (eg. langName as we are adding lagueages) then create the element using createElement then pass what where we have to add changes (eg. here we are dom manipulating the inner html) then pass the variable in ${} then select where we have to add it by selecting the child or parent and then close the function and then call it inside the function and execute it. -->
+
+
+<script>
+
+            function addLang (langName){
+             const li =   document.createElement('li')
+             li.innerHTML= `${langName}`
+             document.querySelector('.language').appendChild(li)
+
+            }
+
+            addLang('ruby')
+            addLang('python')
+
+
+           function optLang (langName){
+            const li =document.createElement('li')
+            li.appendChild(document.createTextNode(langName))
+            document.querySelector(".language").appendChild(li)
+           }
+
+           optLang("javasss")
+
+
+           //EDIT
+
+         const secLang= document.querySelector('li: nth-child(2)')
+
+           const newLi= document.createElement('li')
+           newLi.textContent= "jasson"
+           secLang.replaceWith(newLi)
+
+
+           //delete/remove
+
+           const lastLang = document.querySelector('li: last-child')
+           lastLang.remove()
+</script>
+</html>

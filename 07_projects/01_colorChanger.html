@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color change button</title>
+    <style>
+
+        .canvas{
+            display: flex;
+            width: 80%;
+
+        }
+        #grey{
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;
+            background-color: grey;
+        }
+        #blue{
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;
+            background-color: blue;
+        }
+        #yellow{
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;
+            background-color: yellow;
+        }
+        #tomato{
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <div class="canvas">
+    <h1>Color change switcher</h1>
+    <br>
+    <span class="button" id="grey"></span>
+    <span class="button" id="blue"></span>
+    <span class="button" id="yellow"></span>
+    <span class="button" id="tomato"></span>
+
+    </div>
+
+    <!-- <script>
+        const buttons = document.querySelectorAll('.button')
+
+        const body = document.querySelector('body')
+
+        buttons.forEach(function(button){
+            console.log(button);
+          button.addEventListener('click', function(e){
+            console.log(e);
+            console.log(e.target);
+
+            if (e.target.id=== 'grey') {
+                    body.style.backgroundColor= e.target.id              
+            }
+            if (e.target.id=== 'blue') {
+                    body.style.backgroundColor= 'blue'          
+            }
+            if (e.target.id=== 'yellow') {
+                    body.style.backgroundColor= e.target.id              
+            }
+            if (e.target.id=== 'tomato') {
+                    body.style.backgroundColor= e.target.id              
+            }
+          })  
+        })
+    </script> -->
+   
+    <!-- <script>
+  const buttons = document.querySelectorAll('.button')
+  console.log(button);
+  const body = document.querySelector('body')
+ 
+  buttons.forEach(function(button){
+    console.log(button);
+    button.addEventListener('click' , function(e){
+        console.log(e);
+        console.log(e.target);
+        if (a.target.id=== 'grey') {
+            body.style.backgroundColor= e.target.id
+        }
+        if (a.target.id=== 'tomato') {
+            body.style.backgroundColor= e.target.id
+        }
+        if (a.target.id=== 'yellow') {
+            body.style.backgroundColor= e.target.id
+        }
+        if (a.target.id=== 'blue') {
+            body.style.backgroundColor= e.target.id
+        }
+    })
+  })
+    </script> -->
+
+    <!-- <script>
+        const buttons = document.querySelectorAll('.button');
+        console.log(buttons);
+        const body = document.querySelector('body');
+ 
+        buttons.forEach(function(button) {
+            console.log(button);
+            button.addEventListener('click', function(e) {
+                console.log(e);
+                console.log(e.target);
+                if (e.target.id === 'grey') {
+                    body.style.backgroundColor = e.target.id;
+                }
+                if (e.target.id === 'tomato') {
+                    body.style.backgroundColor = e.target.id;
+                }
+                if (e.target.id === 'yellow') {
+                    body.style.backgroundColor = e.target.id;
+                }
+                if (e.target.id === 'blue') {
+                    body.style.backgroundColor = e.target.id;
+                }
+            });
+        });
+    </script> -->
+
+    <script>
+
+            const buttons = document.querySelectorAll('.button')
+             console.log(buttons);
+             const body = document.querySelector('body')
+
+             buttons.forEach(function(button){
+                console.log(button);
+                button.addEventListener('click', function(e){
+                    console.log(e);
+                    console.log(e.target);
+
+                    if (e.target.id==="grey") {
+                        body.style.backgroundColor= e.target.id
+                    }
+
+                    if (e.target.id==='blue') {
+                        body.style.backgroundColor = e.target.id
+                    }
+
+                    if (e.target.id ==='yellow') {
+                        body.style.backgroundColor= e.target.id
+                    }
+                    
+                    if(e.target.id ==='tomato')(
+                        body.style.backgroundColor= e.target.id
+                    )
+                })
+             })
+
+
+
+    </script>
+</body>
+</html>
